@@ -15,10 +15,10 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main className="bg-[#3c5160]">
+      <main className="bg-[#DE9230]">
         <Hero />
         <Awards />
-        <section className="bg-[#3c5160] pb-[120px] max-[560px]:pb-[80px]">
+        <section className="bg-[#DE9230] pb-[120px] max-[560px]:pb-[80px]">
           <div className="container text-center">
             <h2 className="text-[28px] tracking-[0.5px] capitalize leading-[180%] text-white/80">
               Our Awards
@@ -26,12 +26,9 @@ export default function HomePage() {
 
             <div className="flex flex-wrap justify-center gap-[60px] max-[560px]:gap-[40px] mt-[40px] max-w-[1280px] mx-auto">
               <div className="p-6 py-6 bg-transparent  shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 min-[768px]:max-w-[300px] w-full flex flex-col justify-between">
-                <a
-                  href="https://blog.inivie.com/kaamala-resort-ubud-wins-best-luxury-resort-2023-by-tripadvisor/"
-                  target="_blank"
-                >
+                <a href="#" target="_blank">
                   <h3 className="!text-[19px] tracking-[0.5px] text-white/80 leading-[160%]">
-                    Best Luxury Resort 2023
+                    Top 10% Worldwide Travellers' Choice Awards 2025
                   </h3>
                   <p className="text-white/60 italic tracking-[0.5px] mt-3">
                     TripAdvisor
@@ -42,10 +39,10 @@ export default function HomePage() {
               <div className="p-6 py-6 bg-transparent shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 min-[768px]:max-w-[300px] w-full flex flex-col justify-between">
                 <a href="https://blog.inivie.com/kaamala-resort-ubud-named-among-the-top-10-honeymoon-destinations-2024-by-conde-nast-traveler/">
                   <h3 className="!text-[19px] text-white/80 tracking-[0.5px] leading-[160%]">
-                    Top 10 Honeymoon Destination 2024
+                    Traveller Review Awards 2025
                   </h3>
                   <p className="text-white/60 italic tracking-[0.5px] mt-3">
-                    Conde Nast Traveler
+                    Booking.com
                   </p>
                 </a>
               </div>
@@ -53,10 +50,10 @@ export default function HomePage() {
               <div className="p-6 py-6 bg-transparent  shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 min-[768px]:max-w-[300px] w-full flex flex-col justify-between">
                 <a href="https://inivie.com/blog/kaamala-resort-ubud-honored-as-global-winner-2025-by-world-luxury-hotel-awards">
                   <h3 className="!text-[19px] text-white/80 tracking-[0.5px] leading-[160%]">
-                    World Luxury Hotel Awards 2025
+                    Best Luxury Villa Resort in Southern Asia
                   </h3>
                   <p className="text-white/60 italic tracking-[0.5px] mt-3">
-                    Global Winner
+                    World Luxury Awards 2024
                   </p>
                 </a>
               </div>
@@ -74,7 +71,7 @@ export default function HomePage() {
         <section>
           <GuestReviews />
         </section>
-        <section className="bg-[#3c5160] pb-[100px] max-[560px]:pb-[80px]">
+        <section className="bg-[#DF9230] pb-[100px] max-[560px]:pb-[80px]">
           <div className="max-w-[900px] mx-auto">
             <h2 className="text-[28px] tracking-[0.5px] text-center capitalize leading-[180%] text-white/80 mb-[20px]">
               Featured On

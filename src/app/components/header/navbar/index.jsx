@@ -121,7 +121,7 @@ export default function Navbar({ setOpen, slug }) {
                 width="100"
                 loading="edge"
                 fetchPriority="high"
-                src={"/logo.webp"}
+                src={"/logo.png"}
                 className=" object-cover object-center max-[560px]:w-[70px] max-[560px]:h-[70px]"
               />
             </Link>
@@ -163,7 +163,7 @@ export default function Navbar({ setOpen, slug }) {
               {/* Submenu */}
               <div
                 className={`absolute left-0 mt-2 w-full text-white flex flex-row justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300  py-2 ${
-                  scrolled ? "bg-[#3c5160] shadow-md" : "bg-transparent"
+                  scrolled ? "bg-[#CC7506] shadow-md" : "bg-transparent"
                 }`}
               >
                 <ul
@@ -172,7 +172,7 @@ export default function Navbar({ setOpen, slug }) {
                   }`}
                 >
                   <li className="  hover:border-b over:border-white  cursor-pointer">
-                    About Us
+                    <a href="/about-us">About Us</a>
                   </li>
                   <li className="  hover:border-b over:border-white  cursor-pointer">
                     Awards
@@ -198,7 +198,7 @@ export default function Navbar({ setOpen, slug }) {
               {/* Submenu */}
               <div
                 className={`absolute left-0 mt-2 w-full text-white flex flex-row justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300  py-2 ${
-                  scrolled ? "bg-[#3c5160] shadow-md" : "bg-transparent"
+                  scrolled ? "bg-[#CC7506] shadow-md" : "bg-transparent"
                 }`}
               >
                 <ul
@@ -227,7 +227,7 @@ export default function Navbar({ setOpen, slug }) {
               {/* Submenu */}
               <div
                 className={`absolute left-0 mt-2 w-full text-white flex flex-row justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300  py-2 ${
-                  scrolled ? "bg-[#3c5160] shadow-md" : "bg-transparent"
+                  scrolled ? "bg-[#CC7506] shadow-md" : "bg-transparent"
                 }`}
               >
                 <ul
@@ -259,7 +259,7 @@ export default function Navbar({ setOpen, slug }) {
               {/* Submenu */}
               <div
                 className={`absolute left-0 mt-2 w-full text-white flex flex-row justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300  py-2 ${
-                  scrolled ? "bg-[#3c5160] shadow-md" : "bg-transparent"
+                  scrolled ? "bg-[#CC7506] shadow-md" : "bg-transparent"
                 }`}
               >
                 <ul
@@ -291,7 +291,7 @@ export default function Navbar({ setOpen, slug }) {
               {/* Submenu */}
               <div
                 className={`absolute left-0 mt-2 w-full text-white flex flex-row justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300  py-2 ${
-                  scrolled ? "bg-[#3c5160] shadow-md" : "bg-transparent"
+                  scrolled ? "bg-[#CC7506] shadow-md" : "bg-transparent"
                 }`}
               >
                 <ul

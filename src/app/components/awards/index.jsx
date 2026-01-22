@@ -15,7 +15,7 @@ export default function Awards() {
     <>
       <section
         id="section2"
-        className="bg-[#3c5160] relative pb-[100px] max-[560px]:pb-[70px] "
+        className="bg-[#DE9230] relative pb-[100px] max-[560px]:pb-[70px] "
       >
         <div ref={ref} className="max-[900px]:hidden pt-[70px]">
           {inView ? <KalendarNew /> : <div style={{ height: 250 }} />}
@@ -25,7 +25,7 @@ export default function Awards() {
         <div className="container ">
           <div className="">
             <h1 className="text-[36px] tracking-[0.5px] text-center leading-[180%] text-white/80">
-              Kaamala Luxury Resort and Spa in Ubud
+              Aksari Resort & Spa in Ubud
             </h1>
           </div>
           <div className="h-[50px] max-[560px]:h-[50px]"></div>
@@ -41,23 +41,31 @@ export default function Awards() {
             </div>
             <div className="space-y-5 flex flex-col justify-center items-center">
               <h2 className="text-[28px] text-center tracking-[0.5px] capitalize leading-[120%] text-white/80">
-                A Lotus-inspired Eco Luxury Resort with Multi Experience
+                An Eco-Luxury Resort with Multi-Experience Sacred Essence of
+                Bali
               </h2>
-              <p
-                className={`leading-[180%] tracking-[0.5px] text-white/60 text-center transition-all duration-300 `}
-              >
-                Guided by the sacred spirit of the lotus, Kaamala Resort is a
-                living tribute to the unity of purity, soulfulness, romance, and
-                nature. As the lotus rises unstained from the mud, so too does
-                your journey here, where the weight of pain and stress gently
-                dissolves into stillness. In the serene heart of Ubud, your
-                senses are gracefully reawakened. Cradled by lush tropical
-                greenery, our villas and suites mirror the quiet beauty of
-                lotus, spaces where stillness breathes, emotions soften, and
-                every detail speaks of balance and intention. This is where
-                romance becomes sacred, and the soul rediscovers itself, held
-                gently in the quiet, unfolding grace of nature.
-              </p>
+
+              <div className="space-y-2">
+                <p
+                  className={`leading-[180%] tracking-[0.5px] text-white/60 text-center transition-all duration-300 `}
+                >
+                  Aksari Resort is a Ubud sanctuary where wisdom, art, and
+                  spirituality come together in harmony. The emblem of Aksari,
+                  encircled with intricate patterns around the letter “A,”
+                  symbolizes a gateway to sacred serenity. Its name, derived
+                  from Sanskrit meaning “letter” or “essence,” honors the
+                  written word as a vessel of knowledge and devotion.
+                </p>
+                <p
+                  className={`leading-[180%] tracking-[0.5px] text-white/60 text-center transition-all duration-300 `}
+                >
+                  At the resort’s entrance, the Ganesha statue welcomes guests
+                  as the guardian of learning, prosperity, and new beginnings.
+                  Like ink flowing across palm-leaf manuscripts, every guest
+                  writes their own story at Aksari Resort, a place where love,
+                  healing, and discovery unfold gracefully.
+                </p>
+              </div>
             </div>
           </div>
         </div>

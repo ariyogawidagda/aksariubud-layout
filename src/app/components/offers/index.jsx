@@ -10,24 +10,24 @@ import "swiper/css/pagination";
 export default function Offers() {
   const offers = [
     {
-      img: "/homepage/spa-bisma.webp",
-      title: "Svaha Spa Bisma",
+      img: "/homepage/spa.webp",
+      title: "Svaha Spa Kenderan",
       link: "#",
     },
     {
-      img: "/sound-healing.webp",
+      img: "/homepage/sound-healing.webp",
       title: "Floating Sound Healing",
       link: "#",
     },
     {
-      img: "/yoga.webp",
+      img: "/homepage/yoga.webp",
       title: "Yoga",
       link: "#",
     },
   ];
 
   return (
-    <section className="bg-[#3c5160] pb-[120px] max-[560px]:pb-[80px]">
+    <section className="bg-[#DF9230] pb-[120px] max-[560px]:pb-[80px]">
       <div className="container">
         <div className="max-w-[600px] mx-auto space-y-6">
           <h2 className="text-[28px] text-center tracking-[0.5px] capitalize leading-[180%] text-white/80">

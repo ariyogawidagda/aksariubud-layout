@@ -5,15 +5,15 @@ import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 export default function Media() {
   const data = [
-    "/media/1.png",
-    "/media/2.png",
-    "/media/3.png",
-    "/media/4.png",
-    "/media/5.png",
-    "/media/6.png",
-    "/media/7.png",
-    "/media/9.png",
-    "/media/10.png",
+    "/homepage/media/1.png",
+    "/homepage/media/2.png",
+    "/homepage/media/3.png",
+    "/homepage/media/4.png",
+    "/homepage/media/5.png",
+    "/homepage/media/6.png",
+    "/homepage/media/7.png",
+    "/homepage/media/9.png",
+    "/homepage/media/10.png",
   ];
   return (
     <>

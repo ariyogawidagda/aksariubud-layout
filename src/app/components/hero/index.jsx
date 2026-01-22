@@ -23,7 +23,7 @@ export default function Hero() {
               className="w-full h-full object-cover absolute inset-0"
               onError={() => setVideoError(true)}
             >
-              <source src={"/kaamala-new.mp4"} type="video/mp4" />
+              <source src={"/aksari-resort.mp4"} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           )}

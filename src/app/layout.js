@@ -27,12 +27,12 @@ const cormorant = Cormorant({
 
 const getInlineThemeStyle = () => {
   return {
-    "--headerColor": "#3C5160" || "",
-    "--footerColor": "#3C5160" || "",
-    "--contactColor": "#3C5160" || "",
-    "--btnHoverColor": "#2D3D49" || "",
-    "--primaryColor": "#3C5160" || "",
-    "--bodyColor": "#3C5160" || "",
+    "--headerColor": "#DF9230" || "",
+    "--footerColor": "#CC7506" || "",
+    "--contactColor": "#CC7506" || "",
+    "--btnHoverColor": "#CC7506" || "",
+    "--primaryColor": "#CC7506" || "",
+    "--bodyColor": "#CC7506" || "",
   };
 };
 

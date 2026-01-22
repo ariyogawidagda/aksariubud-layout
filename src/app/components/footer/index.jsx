@@ -19,17 +19,14 @@ export default function Footer() {
             <div className="col-span-3 max-[560px]:col-span-12 flex  flex-col justify-center items-center gap-[17px] ">
               <Link prefetch={false} href={`/`} aria-label="Link Logo">
                 <img
-                  src={`logo.webp`}
+                  src={`logo.png`}
                   alt="Gambar Responsif"
                   className=" h-auto  w-[200px] max-[560px]:w-[100px] pr-[50px] max-[767px]:pr-0 object-cover object-center"
                   loading="lazy"
                 />
               </Link>
               <p className=" text-white/80 text-[14px]  leading-[24px] pr-[50px] text-center max-[767px]:pr-0 ">
-                <a href={"#"}>
-                  Jl. Bisma No.888A, Ubud, Kecamatan Ubud, Kabupaten Gianyar,
-                  Bali 80571
-                </a>
+                <a href={"#"}>Jl. Raya Desa Kenderan No.88 A, Ubud, Bali</a>
               </p>
             </div>
             <div className=" mt-[0px] col-span-2 max-[560px]:col-span-12 ">
@@ -168,7 +165,7 @@ export default function Footer() {
                   aria-label="link facebook"
                 >
                   <img
-                    src={`/facebook.png`}
+                    src={`/icon/facebook.png`}
                     alt="facebook"
                     loading="lazy"
                     className="w-[9px] h-auto"
@@ -182,7 +179,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={`/youtube.png`}
+                    src={`/icon/youtube.png`}
                     alt="youtube"
                     loading="lazy"
                     className="w-[14px] h-auto"
@@ -196,7 +193,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={`/instagram.png`}
+                    src={`/icon/instagram.png`}
                     alt="instagram"
                     loading="lazy"
                     className="w-[13px] h-auto"
@@ -228,7 +225,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                   >
                     <img
-                      src={`/tripadvisor.png`}
+                      src={`/icon/tripadvisor.png`}
                       loading="lazy"
                       className="w-[131px] h-[20px] object-cover object-center"
                       alt="tripadvisor"
@@ -246,7 +243,7 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-      <div className="py-[40px] px-[38px] bg-[#2D3D49]">
+      <div className="py-[40px] px-[38px] bg-[#CC7506]">
         <div className="flex justify-center">
           <a
             href="/"

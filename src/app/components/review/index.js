@@ -7,58 +7,38 @@ import "swiper/css/pagination";
 
 const reviews = [
   {
-    text: "We had the most wonderful stay here in a two bedroom villa. The villa was amazing and comfy. The staff were incredible and so nice. They were particularly amazing with my two year old. The proximity to Ubud town is great too. My family had such a great time here and set us up for a wonderful adventure in Ubud.",
-    author: "Bianca Guerrieri",
+    text: "A beautiful, peaceful stay in Ubud at Aksari resort for our honeymoon. Our villa was spacious, clean and well maintained. All staff so friendly and accommodating. We enjoyed our massage at the spa very relaxing and all our food at the restaurant was delicious. Participate in the Yoga each morning and that was a wonderful way to start the day. Resort is well maintained and you are able to relax the moment you arrive. Much thanks to all the staff so helpful, friendly and contribute to the amazing stay",
+    author: "Angela Psaila",
     source: "Google Review",
   },
   {
-    text: "This is a great hotel to stay in during the time in Ubud. All of the staff is very friendly and helpful, which creates a great experience. The resort itself is nice and clean. The hotel restaurant Habitat is to be recommended as well, very good dining!",
-    author: "Samuel Lanter",
-    source: "Google Review",
+    text: "We had a wonderful stay at Aksari Hotel in Bali! We stayed in the private villa with a pool, which was both beautiful and peaceful — perfect for relaxing. The atmosphere of the hotel was calm, the rooms were clean and stylish, and the location was ideal for exploring the area. A special thank you to Ayu, who went above and beyond to help us during our stay. She was always kind, attentive, and truly made our experience even more enjoyable. Highly recommended!",
+    author: "Habib",
+    source: "Bookingcom",
   },
   {
-    text: "Facilities were amazing and the staff are so friendly, with their ready smiles very much willing to assist. Rooms were well maintained. Fantastic view of the forest from the pool and restaurant. Enjoyed the breakfast (a la carte) as well.",
-    author: "Rosarie",
-    source: "Agoda",
+    text: "I just had the most amazing and relaxing experience in Aksari Luxury Resort, they have a beautiful summing pool, yoga area, delicious food. Unforgettable experience a must try in life. Highlight to the nicest staff Wulan and all the team. Keep it up",
+    author: "Peahgah",
+    source: "Bookingcom",
   },
   {
-    text: "Great location, comfortable and stylish room, gorgeous views from our room as well as from the Habitat restaurant where we had breakfast. It was so cool to see monkeys pop by the pool at breakfast!",
-    author: "Lisa",
-    source: "Booking.com",
-  },
-  {
-    text: "Perfect stay, wonderful experience. We were so happy to spend our honeymoon here. The hotel is close to Ubud Center, which made it easy for us to get around and visit several places in Ubud.",
-    author: "Maxim Jack",
+    text: "Staying at Aksari Bali was truly an unforgettable experience. From the moment we arrived, we were welcomed with such warmth and genuine hospitality that made us feel instantly at home. The villas are stunning—spacious, beautifully decorated, and perfectly designed for privacy and comfort. Having our own private pool surrounded by greenery created such a romantic and relaxing atmosphere, ideal for couples looking for a peaceful escape",
+    author: "Sheshan M",
     source: "Tripadvisor",
   },
   {
-    text: "Kaamala Resort Ubud is an excellent choice thanks to its central location.",
-    author: "Epicure Asia",
-    source: "Epicure Asia",
-  },
-  {
-    text: "It’s like having your own private villa but with the services you can expect from a luxury resorts",
-    author: "Asianwanderlust",
-    source: "Asianwanderlust",
-  },
-  {
-    text: "At Kaamala, each stay is defined not only by luxury but also by a sense of discovery. The exclusive resort provides a unique fusion of luxury and nature, with an eco-friendly ethos and world-class amenities",
-    author: "The Bali Bible",
-    source: "The Bali Bible",
-  },
-  {
-    text: "exquisite luxury getaway suitable for both romantic and family occasion in Ubud",
-    author: "Bali Buddies",
-    source: "Bali Buddies",
+    text: "One of the best destinations for a honeymoon or a peaceful getaway—perfect if you want to relax and escape the noise of the world. Our experience was made even more special thanks to Ayu, who went above and beyond as a manager, taking care of everything and ensuring we had the best vacation. I’m truly grateful to her and the entire staff for their wonderful hospitality",
+    author: " Marwan Raslan",
+    source: "Tripadvisor",
   },
 ];
 
 export default function GuestReviews() {
   return (
-    <section className="bg-[#3c5160] pb-[100px] max-[560px]:pb-[70px]">
+    <section className="bg-[#DF9230] pb-[100px] max-[560px]:pb-[70px]">
       <div className="container mx-auto text-center">
         <h2 className="text-[28px] tracking-[0.5px] text-white/80 mb-14 max-[560px]:mb-[40px]">
-          Stories from Our Esteemed Guests and Partners
+          The Story from Our Guest and Partner
         </h2>
 
         <Swiper

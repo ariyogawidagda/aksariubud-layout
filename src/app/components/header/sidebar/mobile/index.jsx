@@ -13,7 +13,7 @@ export default function SidebarMobile({ setOpen, setContact }) {
       <div className="pt-[20px]  flex justify-between items-center">
         <div className="relative w-[90px] h-auto">
           <img
-            src={`/logo.webp`}
+            src={`/logo.png`}
             alt="logo"
             loading="eager"
             className="w-full h-full"
@@ -25,7 +25,7 @@ export default function SidebarMobile({ setOpen, setContact }) {
             className="relative w-[25px] h-[25px] cursor-pointer"
           >
             <img
-              src="/close.png"
+              src="/icon/close.png"
               alt="close"
               loading="eager"
               className="w-full h-full"
@@ -162,7 +162,7 @@ export default function SidebarMobile({ setOpen, setContact }) {
           <li className="w-[30px] h-[30px] rounded-[50%] flex justify-center items-center bg-[var(--bodyColor)]">
             <a href={"#"} aria-label="Link facebook">
               <img
-                src="/facebook.png"
+                src="/icon/facebook.png"
                 alt="facebook"
                 className="w-[8px] h-[12px]"
                 loading="eager"
@@ -173,7 +173,7 @@ export default function SidebarMobile({ setOpen, setContact }) {
           <li className="w-[30px] h-[30px] rounded-[50%] flex justify-center items-center bg-[var(--bodyColor)]">
             <a href={"#"} aria-label="Link youtube">
               <img
-                src="/youtube.png"
+                src="/icon/youtube.png"
                 alt="youtube"
                 className="w-[15px] h-[12px]"
                 loading="eager"
@@ -184,7 +184,7 @@ export default function SidebarMobile({ setOpen, setContact }) {
           <li className="w-[30px] h-[30px] rounded-[50%] flex justify-center items-center bg-[var(--bodyColor)]">
             <a href={"#"} aria-label="Link Instagram">
               <img
-                src="/instagram.png"
+                src="/icon/instagram.png"
                 alt="instagram"
                 className="w-[15px] h-[12px]"
                 loading="eager"
@@ -211,7 +211,7 @@ export default function SidebarMobile({ setOpen, setContact }) {
             <p className="text-[13px] text-white text-center">Recommended on</p>
             <div className=" w-[131px] h-[20px] mt-[10px] ">
               <img
-                src="/tripadvisor.png"
+                src="/icon/tripadvisor.png"
                 alt="tripadvisor"
                 className="w-full h-full"
                 loading="eager"

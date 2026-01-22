@@ -471,7 +471,7 @@ h2 {
   opacity: 1;
 }
 .custom-pagination .swiper-pagination-bullet-active {
-  background: #2d3d49 !important;
+  background: #fdfdfd !important;
 }
 .review-text {
   position: relative;

@@ -2,42 +2,45 @@
 
 import { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
 import Link from "next/link";
 
 export default function RoomTypeSlider() {
   const roomTypes = [
     {
-      name: "Suite Forest View",
-      text: "Waking up to birdsong in the heart of Ubud’s lush forest is an enchanting moment made for those seeking untamed natural beauty. Your sanctuary opens to a soothing panoramic forest view, best enjoyed from the comfort of private jacuzzi, surrounded by treetop serenity.",
-      image: "/rooms/suite-forest.webp",
+      name: "Aksari Suite",
+      text: "This suite is a celebration of understated luxury, where a spacious living area flows seamlessly onto a private balcony. Amidst curated artisan furnishings and soft textiles, you are invited to lounge and surrender to the peaceful ambiance of your own personal haven.",
+      image: "/rooms/aksari-suite.webp",
     },
     {
-      name: "Grand Suite with Forest View",
-      text: "Unwind in the quiet luxury of an expansive suite that invites you into a serene sanctuary, where soft morning light filters through the treetops and the forest becomes your companion. Soak in your private jacuzzi as the jungle hums around you, a perfect harmony of comfort and wild Ubud beauty.",
-      image: "/rooms/grand-suite-forest.webp",
+      name: "Grand Aksari Suite",
+      text: "This suite is an ode to grandeur, a private gallery where modern minimalist architecture meets the Balinese soul. It offers a generous lounge and breathtaking balcony over the Ubud jungle, define an experience of curated elegance.",
+      image: "/rooms/grand-aksari-suite.webp",
     },
     {
       name: "One Bedroom Villa with Private Pool",
-      text: "The One Bedroom Villa with Private Pool at this luxury resort in Ubud is a romantic haven wrapped in natural elegance, featuring wood textures, natural stone, and tropical details overlooking lush jungle. Designed for stillness and connection, it offers a tranquil escape in the heart of Ubud.",
-      image: "/rooms/one-bedroom.webp",
+      text: "Discover ultimate privacy within our walled garden paradise, a personal villa where your private pool forms a perfect oasis for sun-drenched afternoons and starlit dips. The airy bedroom opens directly to the water's edge, blurring the line between inner sanctuary and tropical haven to create a seamless seclusion and pleasure.",
+      image: "/rooms/one-bedroom-villa.webp",
     },
     {
-      name: "Grand One Bedroom Private Pool Villa with Ricefield View",
-      text: "Framed by the golden shimmer of Ubud’s iconic rice fields, this villa is a tranquil haven for couples seeking seclusion and serenity. Infused with tropical Balinese charm, it offers a private pool, open-air elegance, and an intimate connection to the rhythms of nature.",
-      image: "/rooms/grand-one.webp",
+      name: "Grand One Bedroom Private Pool Villa with River View",
+      text: "Perched within Ubud's lush jungle, here the symphony of nature is your constant companion. The elegant living space is designed for moments of awe, and the private infinity pool appears to merge with the flowing river valley, a living masterpiece of nature presented exclusively for you.",
+      image: "/rooms/grand-one-bedroom-river.webp",
     },
     {
-      name: "Grand 2 Bedroom Private Pool Villa with Ricefield View",
-      text: "Embraced by the gentle sway of emerald rice paddies, this tropical haven invites families or groups into a soulful escape where open-air living and Balinese elegance turn every moment into a shared memory.",
-      image: "/rooms/grand-two.webp",
+      name: "Grand One Bedroom Villa with Private Pool",
+      text: "Experience a living space at its most perfected expression, a grand sanctuary featuring an expansive living area, a stately bedroom, and a private pool embraced by a lush tropical garden. Crafted for extended moments of ease and intimate gatherings, every refined detail speaks softly of exceptional elegance.",
+      image: "/rooms/grand-one-bedroom-pool.webp",
     },
     {
-      name: "Presidential 2 Bedroom Private Pool Villa with Ricefield View",
-      text: "A pinnacle of tropical elegance, this sanctuary blends Balinese design with modern indulgence, featuring panoramic rice field views, a ricefield view jacuzzi, and a private pool for soulful gatherings in nature’s embrace.",
-      image: "/rooms/presidential.webp",
+      name: "Grand One Bedroom Private Pool Villa with Riverside View",
+      text: "Relax in a state of serene hypnosis, lulled by the gentle flow of the sacred river echoing from your private deck and pool. This villa offers a front-row view of stone and jungle in perfect harmony, a poetic dialogue between human craftsmanship and Bali’s untamed beauty.",
+      image: "/rooms/grand-one-bedroom-pool-river.webp",
+    },
+    {
+      name: "Grand Two Bedroom Private Pool Villa with River View",
+      text: "Crafted for shared journeys, this villa is a family estate in miniature,  where two luxurious suites flank a magnificent living pavilion and a vast pool dancing with reflections of the sky. It is a destination of boundless grace, promising laughter, bonding, and unforgettable moments.",
+      image: "/rooms/grand-two-river.webp",
     },
   ];
 
@@ -59,7 +62,7 @@ export default function RoomTypeSlider() {
       <div className="absolute inset-0 bg-black/75" />
 
       {/* Konten tengah */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white z-10 px-4">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white/80 z-10 px-4">
         <div className="max-w-[700px] mx-auto space-y-8 mt-[100px]">
           <p className="text-white/90 text-[14px] tracking-[0.5px]">
             {roomTypes[activeIndex].text}
@@ -82,7 +85,7 @@ export default function RoomTypeSlider() {
       {/* Slider teks */}
       <div className="absolute top-[120px] max-[560px]:top-[80px] w-full z-10">
         <div className="container relative">
-          <h2 className="text-white text-center mb-10 max-[560px]:mb-5 tracking-[0.5px]">
+          <h2 className="text-white/80 text-center mb-10 max-[560px]:mb-5 tracking-[0.5px]">
             Accomodations
           </h2>
           <div className="relative max-w-[1150px] mx-auto px-6 sm:px-10">

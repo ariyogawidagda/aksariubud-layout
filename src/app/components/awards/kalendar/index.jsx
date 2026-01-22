@@ -119,7 +119,7 @@ export default function KalendarNew() {
               Authorization: "Basic " + btoa("calendar:g486dJ2wmW"),
             },
             withCredentials: true,
-          }
+          },
         );
         console.log("TANGGA", response.data);
         setPriceDate(response.data);
@@ -383,7 +383,7 @@ export default function KalendarNew() {
 
                 <button
                   className="py-[12px]  px-[24px] inline-block w-full
-                     text-white/80 bg-[#2D3D49] transition-transform duration-500 ease-in-out hover:scale-105"
+                     text-white/80 bg-[#DF9230] transition-transform duration-500 ease-in-out hover:scale-105"
                   aria-label="Link Booking"
                 >
                   Check Availability

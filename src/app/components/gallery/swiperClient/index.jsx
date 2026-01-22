@@ -21,7 +21,7 @@ export default function SwiperClient() {
           <div className="relative cursor-pointer">
             {/* Gambar */}
             <Image
-              src={`/signature.webp`}
+              src={`/homepage/signature.webp`}
               alt="Luxury Resort"
               className="w-full h-[327px] min-[767px]:h-[358px] object-cover object-center"
               width={1080}
@@ -61,7 +61,7 @@ export default function SwiperClient() {
           <div className="relative cursor-pointer">
             {/* Gambar */}
             <Image
-              src={`/immersive.webp`}
+              src={`/homepage/immersive.jpg`}
               alt="Luxury Resort"
               className="w-full h-[327px] min-[767px]:h-[358px] object-cover object-center"
               width={1080}
@@ -101,7 +101,7 @@ export default function SwiperClient() {
           <div className="relative cursor-pointer">
             {/* Gambar */}
             <Image
-              src={`/romantic.webp`}
+              src={`/homepage/romantic.webp`}
               alt="Luxury Resort"
               className="w-full h-[327px] min-[767px]:h-[358px] object-cover object-center"
               width={1080}
@@ -141,7 +141,7 @@ export default function SwiperClient() {
           <div className="relative cursor-pointer">
             {/* Gambar */}
             <Image
-              src={`/wedding.webp`}
+              src={`/homepage/wedding.webp`}
               alt="Luxury Resort"
               className="w-full h-[327px] min-[767px]:h-[358px] object-cover object-center"
               width={1080}

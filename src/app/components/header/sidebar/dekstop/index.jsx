@@ -25,7 +25,7 @@ export default function SidebarDekstop({ setOpen, setContact }) {
               className="relative w-[25px] h-[25px] cursor-pointer flex gap-[20px] "
             >
               <img
-                src="/close.png"
+                src="/icon/close.png"
                 alt="close"
                 loading="eager"
                 className="w-full h-full"
@@ -44,7 +44,7 @@ export default function SidebarDekstop({ setOpen, setContact }) {
                   className="cursor-pointer flex justify-center items-center"
                 >
                   <img
-                    src={`/logo.webp`}
+                    src={`/logo.png`}
                     alt="logo"
                     loading="eager"
                     className="w-full h-auto"
@@ -204,7 +204,7 @@ export default function SidebarDekstop({ setOpen, setContact }) {
                   >
                     <li className="w-[30px] h-[30px] rounded-[50%] flex justify-center items-center bg-[var(--bodyColor)]">
                       <img
-                        src="/facebook.png"
+                        src="/icon/facebook.png"
                         alt="facebook"
                         className="w-[8px] h-[12px] object-cover"
                         loading="eager"
@@ -214,7 +214,7 @@ export default function SidebarDekstop({ setOpen, setContact }) {
                   <a href={"#"} aria-label="link youtube" target="_blank">
                     <li className="w-[30px] h-[30px] rounded-[50%] flex justify-center items-center bg-[var(--bodyColor)]">
                       <img
-                        src="/youtube.png"
+                        src="/icon/youtube.png"
                         alt="instagram"
                         className="w-[15px] h-[12px] object-cover"
                         loading="eager"
@@ -229,7 +229,7 @@ export default function SidebarDekstop({ setOpen, setContact }) {
                   >
                     <li className="w-[30px] h-[30px] rounded-[50%] flex justify-center items-center bg-[var(--bodyColor)]">
                       <img
-                        src="/instagram.png"
+                        src="/icon/instagram.png"
                         alt="instagram"
                         className="w-[15px] h-[15px] object-cover"
                         loading="eager"
@@ -259,7 +259,7 @@ export default function SidebarDekstop({ setOpen, setContact }) {
                   </p>
                   <div className=" w-[131px] h-[20px] mt-[10px] ">
                     <img
-                      src="/tripadvisor.png"
+                      src="/icon/tripadvisor.png"
                       alt="tripadvisor"
                       className="w-full h-full"
                       loading="eager"

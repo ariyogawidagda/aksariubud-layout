@@ -34,13 +34,13 @@ export default function Footer() {
                 <div className="text-white/80  col-span-12 ">
                   <div className="">Reservation</div>
                   <p className="text-[14px] text-white/60 mt-[5px]">
-                    <a href={`https://wa.me/`}>+62 811-3960-7249</a>
+                    <a href={`https://wa.me/`}>+62 811-3960-7257</a>
                   </p>
                 </div>
                 <div className="text-white/80  col-span-12  ">
                   <div className="">E-Butler</div>
                   <p className="text-[14px] text-white/60 mt-[5px]">
-                    <a href={`https://wa.me/`}>+62 813-3750-4188</a>
+                    <a href={`https://wa.me/`}>+62 821-3574-9527</a>
                   </p>
                 </div>
                 {/* <div className="text-white  col-span-6 ">
@@ -55,7 +55,7 @@ export default function Footer() {
                 <div className="text-white/80  col-span-12  ">
                   <div className="">Email</div>
                   <p className="text-[14px] text-white/60 mt-[5px]">
-                    <a href={`mailto:`}>kaamalaresort@inivie.com</a>
+                    <a href={`mailto:`}>reservation@aksariubud.com</a>
                   </p>
                 </div>
               </div>
@@ -236,7 +236,7 @@ export default function Footer() {
             </div>
             <div className=" col-span-6  max-[560px]:col-span-12 order-1  max-[560px]:order-2">
               <p className="text-white/80 text-[14px] max-[560px]:text-center text-start">
-                © {new Date().getFullYear()} Kaamala Resort . All Rights
+                © {new Date().getFullYear()} Aksari Resort Ubud . All Rights
                 Reserved
               </p>
             </div>

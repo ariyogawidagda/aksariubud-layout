@@ -16,45 +16,37 @@ export default function Navbar({ setOpen, slug }) {
         const isMobile = window.innerWidth <= 768;
         if (isMobile) {
           if (currentScrollPosition > previousScrollPosition) {
-            ref.current.classList.add("bg-[var(--headerColor)]", "shadow-md");
+            ref.current.classList.add("bg-[#F4AE7A]", "shadow-md");
           } else {
             if (currentScrollPosition === 0) {
-              ref.current.classList.remove(
-                "bg-[var(--headerColor)]",
-                "shadow-md",
-              );
+              ref.current.classList.remove("bg-[#F4AE7A]", "shadow-md");
             } else {
-              ref.current.classList.add("bg-[var(--headerColor)]", "shadow-md");
+              ref.current.classList.add("bg-[#F4AE7A]", "shadow-md");
             }
           }
           previousScrollPosition = currentScrollPosition;
         } else {
           if (scrollTop > 50) {
-            ref.current.classList.add("bg-[var(--headerColor)]", "shadow-md");
+            ref.current.classList.add("bg-[#F4AE7A]", "shadow-md");
             refButton?.current?.classList.add(
               "hover:bg-[var(--btnHoverColor)]",
             );
             refButton?.current?.classList.add(
               "hover:border-[var(--btnHoverColor)]",
             );
-            refButton?.current?.classList.remove(
-              "hover:bg-[var(--headerColor)]",
-            );
+            refButton?.current?.classList.remove("hover:bg-[#F4AE7A]");
             refButton?.current?.classList.remove(
               "hover:border-[var(--headerColor)]",
             );
           } else {
-            ref.current.classList.remove(
-              "bg-[var(--headerColor)]",
-              "shadow-md",
-            );
+            ref.current.classList.remove("bg-[#F4AE7A]", "shadow-md");
             refButton?.current?.classList.remove(
               "hover:bg-[var(--btnHoverColor)]",
             );
             refButton?.current?.classList.remove(
               "hover:border-[var(--btnHoverColor)]",
             );
-            refButton?.current?.classList.add("hover:bg-[var(--headerColor)]");
+            refButton?.current?.classList.add("hover:bg-[#F4AE7A]");
             refButton?.current?.classList.add(
               "hover:border-[var(--headerColor)]",
             );
@@ -106,7 +98,7 @@ export default function Navbar({ setOpen, slug }) {
     <>
       <nav
         ref={ref}
-        className="bg-[var(--headerColor)] fixed w-full h-fit inset-0 z-[100] duration-500 ease-in-out "
+        className="bg-[#F4AE7A] fixed w-full h-fit inset-0 z-[100] duration-500 ease-in-out "
       >
         <div
           className={`flex container py-[16px] justify-between items-center min-[768px]:border-b-[1px] min-[768px]:border-white/20  ${

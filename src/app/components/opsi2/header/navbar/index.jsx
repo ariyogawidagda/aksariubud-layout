@@ -114,7 +114,9 @@ export default function Navbar({ setOpen, slug }) {
                 loading="edge"
                 fetchPriority="high"
                 src={"/logo.png"}
-                className=" object-cover object-center max-[560px]:w-[70px] max-[560px]:h-[70px]"
+                className={`${
+                  scrolled ? "invert " : ""
+                } object-cover object-center max-[560px]:w-[70px] max-[560px]:h-[70px] `}
               />
             </Link>
           </div>
@@ -127,6 +129,7 @@ export default function Navbar({ setOpen, slug }) {
               width={34}
               height={14}
               alt="burger menu"
+              className={`${scrolled ? "invert " : ""}`}
             />
           </div>
           <div className="order-3 max-[560px]:hidden">

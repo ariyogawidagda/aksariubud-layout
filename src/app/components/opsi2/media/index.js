@@ -45,7 +45,7 @@ export default function Media() {
               <div className="overflow-hidden flex h-full items-center">
                 <img
                   src={item}
-                  className="w-full max-[560px]:h-[180px] h-auto duration-500 ease-in-out object-cover  hover:scale-105 invert"
+                  className="w-full max-[560px]:h-[180px] h-auto duration-500 ease-in-out object-cover  hover:scale-105 invert-0"
                   alt="logo"
                 />
               </div>

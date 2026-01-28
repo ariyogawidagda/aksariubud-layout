@@ -5,7 +5,7 @@ import Footer from "../components/opsi3/footer";
 import Gallery from "../components/opsi3/gallery";
 import Header from "../components/opsi3/header";
 import Hero from "../components/hero";
-import Media from "../components/media";
+import Media from "../components/opsi3/media";
 import Offers from "../components/opsi3/offers";
 import GuestReviews from "../components/opsi3/review";
 import RoomV2 from "../components/roomv2";

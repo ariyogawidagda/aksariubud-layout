@@ -33,7 +33,7 @@ export default function Media() {
             slidesPerView: 4,
           },
           768: {
-            slidesPerView: 6,
+            slidesPerView: 5,
           },
         }}
         modules={[Autoplay, Navigation]}

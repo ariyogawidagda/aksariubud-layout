@@ -143,7 +143,11 @@ export default function Navbar({ setOpen, slug }) {
           </div>
         </div>
         <div className="py-4 relative max-[768px]:hidden">
-          <ul className="text-white text-[14px] tracking-[1.2px] flex justify-center gap-[40px] max-[1024px]:gap-[30px]">
+          <ul
+            className={`text-[14px] tracking-[1.2px] flex justify-center gap-[40px] max-[1024px]:gap-[30px]
+    ${scrolled ? "text-[#3A2D28]" : "text-white"}
+  `}
+          >
             {/* Our Story */}
             <li className="group">
               <a

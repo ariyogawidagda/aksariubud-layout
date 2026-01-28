@@ -3,7 +3,7 @@ export default function Facilities() {
     <>
       <section className="bg-[#F7CD9B] pt-[100px] pb-[100px] max-[560px]:py-[70px] max-[560px]:pb-[30px]">
         <div className="container">
-          <h2 className="text-[28px] text-center tracking-[0.5px] mb-[40px] capitalize leading-[180%] text-white/80">
+          <h2 className="text-[28px] text-center tracking-[0.5px] mb-[40px] capitalize leading-[180%] text-[#3A2D28]">
             Dinings
           </h2>
           <div className="space-y-[80px] max-lg:space-y-[60px] max-[560px]:space-y-[40px]">
@@ -30,10 +30,10 @@ export default function Facilities() {
                   >
                     OUR RESTAURANT
                   </span> */}
-                  <h3 className="text-[22px] tracking-[0.5px] capitalize leading-[120%] text-white/80">
+                  <h3 className="text-[22px] tracking-[0.5px] capitalize leading-[120%] text-[#3A2D28]">
                     Ankhusa Ubud
                   </h3>
-                  <p className="text-white/60 text-[14px] leading-[180%] tracking-[0.5px]">
+                  <p className="text-[#4A3F35] text-[14px] leading-[180%] tracking-[0.5px]">
                     Experience the Balinese royal dining tradition, the Megibung
                     Feast, at Ankhusa Ubud, where culinary artistry unfolds amid
                     the serene greenery of Ubud’s resort sanctuary. Each dish
@@ -45,7 +45,7 @@ export default function Facilities() {
                   <div className="mt-[16px]">
                     <a
                       href={"#"}
-                      className="px-[22px] py-[12px] bg-[#CC7506]/80 text-[14px] text-white/80 inline-block"
+                      className="px-[22px] py-[12px] bg-[#edb572] text-[14px] text-[#3A2D28] inline-block"
                     >
                       Discover More
                     </a>
@@ -77,10 +77,10 @@ export default function Facilities() {
                   >
                     OUR RESTAURANT
                   </span> */}
-                  <h3 className="text-[22px] tracking-[0.5px] capitalize leading-[120%] text-white/80">
+                  <h3 className="text-[22px] tracking-[0.5px] capitalize leading-[120%] text-[#3A2D28]">
                     Kojin Japanese Restaurant Ubud
                   </h3>
-                  <p className="text-white/60 text-[14px] leading-[180%] tracking-[0.5px]">
+                  <p className="text-[#4A3F35] text-[14px] leading-[180%] tracking-[0.5px]">
                     Kojin is a lively theatrical teppanyaki restaurant amidst
                     Ubud’s lush forest, where refined Japanese culinary
                     craftsmanship meets the elegance of Balinese nature. From
@@ -91,7 +91,7 @@ export default function Facilities() {
                   <div className="mt-[16px]">
                     <a
                       href={"#"}
-                      className="px-[22px] py-[12px] bg-[#CC7506]/80 text-[14px] text-white/80 inline-block"
+                      className="px-[22px] py-[12px] bg-[#edb572] text-[14px] text-[#3A2D28] inline-block"
                     >
                       Discover More
                     </a>

@@ -21,25 +21,25 @@ export default function Footer() {
                 <img
                   src={`logo.png`}
                   alt="Gambar Responsif"
-                  className=" h-auto  w-[200px] max-[560px]:w-[100px] pr-[50px] max-[767px]:pr-0 object-cover object-center"
+                  className=" h-auto  w-[200px] max-[560px]:w-[100px] pr-[50px] max-[767px]:pr-0 object-cover object-center invert"
                   loading="lazy"
                 />
               </Link>
-              <p className=" text-white/80 text-[14px]  leading-[24px] pr-[50px] text-center max-[767px]:pr-0 ">
+              <p className=" text-[#3A2D28] text-[14px]  leading-[24px] pr-[50px] text-center max-[767px]:pr-0 ">
                 <a href={"#"}>Jl. Raya Desa Kenderan No.88 A, Ubud, Bali</a>
               </p>
             </div>
             <div className=" mt-[0px] col-span-2 max-[560px]:col-span-12 ">
               <div className="grid grid-cols-12 max-[768px]:gap-[20px]  text-start space-y-[24px] max-[560px]:text-center max-[560px]:space-y-[0px] max-[560px]:mt-[40px] ">
-                <div className="text-white/80  col-span-12 ">
+                <div className="text-[#3A2D28]  col-span-12 ">
                   <div className="">Reservation</div>
-                  <p className="text-[14px] text-white/60 mt-[5px]">
+                  <p className="text-[14px] text-[#3A2D28]/80 mt-[5px]">
                     <a href={`https://wa.me/`}>+62 811-3960-7257</a>
                   </p>
                 </div>
-                <div className="text-white/80  col-span-12  ">
+                <div className="text-[#3A2D28]  col-span-12  ">
                   <div className="">E-Butler</div>
-                  <p className="text-[14px] text-white/60 mt-[5px]">
+                  <p className="text-[14px] text-[#3A2D28]/80 mt-[5px]">
                     <a href={`https://wa.me/`}>+62 821-3574-9527</a>
                   </p>
                 </div>
@@ -52,9 +52,9 @@ export default function Footer() {
                     </p>
                   </a>
                 </div> */}
-                <div className="text-white/80  col-span-12  ">
+                <div className="text-[#3A2D28]  col-span-12  ">
                   <div className="">Email</div>
-                  <p className="text-[14px] text-white/60 mt-[5px]">
+                  <p className="text-[14px] text-[#3A2D28]/80 mt-[5px]">
                     <a href={`mailto:`}>reservation@aksariubud.com</a>
                   </p>
                 </div>
@@ -62,7 +62,7 @@ export default function Footer() {
             </div>
             <div className="col-span-12  hidden my-[40px] border-[#8d7c6b] border-[1.5px] "></div>
             <div className=" col-span-2 max-[560px]:col-span-6 pl-8 max-[560px]:pl-0 max-[560px]:text-center max-[560px]:mt-[40px]">
-              <ul className="text-white/80 flex flex-col gap-[14px]  ">
+              <ul className="text-[#3A2D28] flex flex-col gap-[14px]  ">
                 <li>
                   <Link prefetch={false} href={`/`}>
                     Explore
@@ -98,7 +98,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className=" col-span-2 max-[560px]:col-span-6 max-[560px]:mt-[40px]">
-              <ul className="text-white/80 flex flex-col gap-[14px] max-[560px]:text-center ">
+              <ul className="text-[#3A2D28] flex flex-col gap-[14px] max-[560px]:text-center ">
                 <li>
                   <Link
                     prefetch={false}
@@ -144,13 +144,13 @@ export default function Footer() {
             <div className=" max-[768px]:mt-[40px] col-span-3 max-[560px]:col-span-12">
               <div>
                 <div className="mt-[20px]">
-                  <p className="text-[15px] text-white/80 mb-[10px] max-[560px]:text-center">
+                  <p className="text-[15px] text-[#3A2D28] mb-[10px] max-[560px]:text-center">
                     Join Our Membership for Exclusive Rewards!
                   </p>
                   <div className="flex max-min-w-1200:flex-col max-min-w-1200:gap-[5px]">
                     <a
                       href="https://booking.inivie.com/register"
-                      className="py-[12px] w-full text-center px-[24px] inline-block border-white/80 border-[1px] text-white/80 hover:bg-[#2D3D49] hover:border-[var(--primaryColor)]  max-min-w-1200:text-center duration-300 ease-in"
+                      className="py-[12px] w-full text-center px-[24px] inline-block border-[#3a2d28]/80 border-[1px] text-[#3A2D28] hover:bg-[#2D3D49] hover:border-[var(--primaryColor)]  max-min-w-1200:text-center duration-300 ease-in"
                       aria-label="Link Booking"
                     >
                       Become A Member
@@ -161,19 +161,19 @@ export default function Footer() {
               <div className="mt-[40px] flex gap-[10px] max-[560px]:justify-center">
                 <a
                   href={"#"}
-                  className=" w-[30px] h-[30px] rounded-[50%] bg-[var(--bodyColor)] flex justify-center items-center"
+                  className=" w-[30px] h-[30px] rounded-[50%] bg-[#edb572] flex justify-center items-center"
                   aria-label="link facebook"
                 >
                   <img
                     src={`/icon/facebook.png`}
                     alt="facebook"
                     loading="lazy"
-                    className="w-[9px] h-auto"
+                    className="w-[9px] h-auto invert"
                   />
                 </a>
                 <a
                   href={"#"}
-                  className=" w-[30px] h-[30px] rounded-[50%] bg-[var(--bodyColor)] flex justify-center items-center"
+                  className=" w-[30px] h-[30px] rounded-[50%] bg-[#edb572]  flex justify-center items-center"
                   aria-label="link youtube "
                   target="_blank"
                   rel="noopener noreferrer"
@@ -182,12 +182,12 @@ export default function Footer() {
                     src={`/icon/youtube.png`}
                     alt="youtube"
                     loading="lazy"
-                    className="w-[14px] h-auto"
+                    className="w-[14px] h-auto invert"
                   />
                 </a>
                 <a
                   href={"#"}
-                  className=" w-[30px] h-[30px] rounded-[50%] bg-[var(--bodyColor)] flex justify-center items-center"
+                  className=" w-[30px] h-[30px] rounded-[50%] bg-[#edb572]  flex justify-center items-center"
                   aria-label="link instagram "
                   target="_blank"
                   rel="noopener noreferrer"
@@ -196,17 +196,17 @@ export default function Footer() {
                     src={`/icon/instagram.png`}
                     alt="instagram"
                     loading="lazy"
-                    className="w-[13px] h-auto"
+                    className="w-[13px] h-auto invert"
                   />
                 </a>
                 <a
                   href={"#"}
-                  className=" w-[30px] h-[30px] rounded-[50%] bg-[var(--bodyColor)] flex justify-center items-center"
+                  className=" w-[30px] h-[30px] rounded-[50%] bg-[#edb572]  flex justify-center items-center"
                   aria-label="link tiktok "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaTiktok size={14} className="text-white" />
+                  <FaTiktok size={14} className="text-black" />
                 </a>
               </div>
             </div>
@@ -214,7 +214,7 @@ export default function Footer() {
           <div className="grid grid-cols-12 gap-[24px] mt-[100px] max-[560px]:mt-[40px]">
             <div className="col-span-6 max-[560px]:col-span-12 order-2">
               <div className="flex items-center flex-row  gap-[14px] justify-end max-[560px]:flex-col">
-                <p className="text-[14px] text-white/80 text-center">
+                <p className="text-[14px] text-[#3A2D28] text-center">
                   Recommended on
                 </p>
                 <div className="  ">
@@ -227,7 +227,7 @@ export default function Footer() {
                     <img
                       src={`/icon/tripadvisor.png`}
                       loading="lazy"
-                      className="w-[131px] h-[20px] object-cover object-center"
+                      className="w-[131px] h-[20px] object-cover object-center invert"
                       alt="tripadvisor"
                     />
                   </a>
@@ -235,7 +235,7 @@ export default function Footer() {
               </div>
             </div>
             <div className=" col-span-6  max-[560px]:col-span-12 order-1  max-[560px]:order-2">
-              <p className="text-white/80 text-[14px] max-[560px]:text-center text-start">
+              <p className="text-[#3A2D28] text-[14px] max-[560px]:text-center text-start">
                 © {new Date().getFullYear()} Aksari Resort Ubud . All Rights
                 Reserved
               </p>
@@ -254,13 +254,13 @@ export default function Footer() {
             <img
               src={`/logo-inivie-ln.png`}
               alt="Gambar Responsif"
-              className="w-[120px] h-auto max-[560px]:w-[100px]  object-cover object-center"
+              className="w-[120px] h-auto max-[560px]:w-[100px]  object-cover object-center invert"
               loading="lazy"
             />
           </a>
         </div>
         <div className="mt-[16px]">
-          <p className="text-[14px] text-white/80 text-center ">
+          <p className="text-[14px] text-[#3A2D28] text-center ">
             This property is a proud member of the ini vie family.
           </p>
         </div>

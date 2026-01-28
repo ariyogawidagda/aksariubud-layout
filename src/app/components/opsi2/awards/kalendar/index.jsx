@@ -383,7 +383,7 @@ export default function KalendarNew() {
 
                 <button
                   className="py-[12px]  px-[24px] inline-block w-full
-                     text-white/80 bg-[#DF9230] transition-transform duration-500 ease-in-out hover:scale-105"
+                     text-[#3a2d28] bg-[#edb572] transition-transform duration-500 ease-in-out hover:scale-105"
                   aria-label="Link Booking"
                 >
                   Check Availability

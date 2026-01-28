@@ -37,7 +37,7 @@ export default function GuestReviews() {
   return (
     <section className="bg-[#F7CD9B] pb-[100px] max-[560px]:pb-[70px]">
       <div className="container mx-auto text-center">
-        <h2 className="text-[28px] tracking-[0.5px] text-white/80 mb-14 max-[560px]:mb-[40px]">
+        <h2 className="text-[28px] tracking-[0.5px] text-[#3A2D28] mb-14 max-[560px]:mb-[40px]">
           The Story from Our Guest and Partner
         </h2>
 
@@ -56,14 +56,14 @@ export default function GuestReviews() {
           {reviews.map((review, idx) => (
             <SwiperSlide key={idx} className="!h-auto pb-2">
               <div className="bg-transparent shadow-md px-10 py-12 flex flex-col justify-between text-left">
-                <p className="relative review-text text-[16px]  text-white/80 italic font-light leading-[1.8] tracking-wide mb-10">
+                <p className="relative review-text text-[16px]  text-[#3A2D28] italic font-light leading-[1.8] tracking-wide mb-10">
                   “{review.text}”
                 </p>
                 <div className="mt-auto border-t-[1px] border-[#E6E2DF]/50 pt-6">
-                  <p className="text-[16px] font-medium text-white/80">
+                  <p className="text-[16px] font-medium text-[#3A2D28]">
                     — {review.author}
                   </p>
-                  <p className="!text-[13px] text-white/40 uppercase tracking-[1.5px] mt-1">
+                  <p className="!text-[13px] text-[#3A2D28]/80 uppercase tracking-[1.5px] mt-1">
                     {review.source}
                   </p>
                 </div>

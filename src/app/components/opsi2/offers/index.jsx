@@ -30,7 +30,7 @@ export default function Offers() {
     <section className="bg-[#F7CD9B] pb-[120px] max-[560px]:pb-[80px]">
       <div className="container">
         <div className="max-w-[600px] mx-auto space-y-6">
-          <h2 className="text-[28px] text-center tracking-[0.5px] capitalize leading-[180%] text-white/80">
+          <h2 className="text-[28px] text-center tracking-[0.5px] capitalize leading-[180%] text-[#3A2D28]">
             Spa & Wellness
           </h2>
         </div>

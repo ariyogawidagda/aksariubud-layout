@@ -24,7 +24,7 @@ export default function Awards() {
 
         <div className="container ">
           <div className="">
-            <h1 className="text-[36px] tracking-[0.5px] text-center leading-[180%] text-white/80">
+            <h1 className="text-[36px] tracking-[0.5px] text-center leading-[180%] text-[#3A2D28]">
               Aksari Resort & Spa in Ubud
             </h1>
           </div>
@@ -40,14 +40,14 @@ export default function Awards() {
               <div className="absolute inset-0 bg-black/40" />
             </div>
             <div className="space-y-5 flex flex-col justify-center items-center">
-              <h2 className="text-[28px] text-center tracking-[0.5px] capitalize leading-[120%] text-white/80">
+              <h2 className="text-[28px] text-center tracking-[0.5px] capitalize leading-[120%] text-[#3A2D28]">
                 An Eco-Luxury Resort with Multi-Experience Sacred Essence of
                 Bali
               </h2>
 
               <div className="space-y-2">
                 <p
-                  className={`leading-[180%] tracking-[0.5px] text-white/60 text-center transition-all duration-300 `}
+                  className={`leading-[180%] tracking-[0.5px] text-[#4A3F35] text-center transition-all duration-300 `}
                 >
                   Aksari Resort is a Ubud sanctuary where wisdom, art, and
                   spirituality come together in harmony. The emblem of Aksari,
@@ -57,7 +57,7 @@ export default function Awards() {
                   written word as a vessel of knowledge and devotion.
                 </p>
                 <p
-                  className={`leading-[180%] tracking-[0.5px] text-white/60 text-center transition-all duration-300 `}
+                  className={`leading-[180%] tracking-[0.5px] text-[#4A3F35] text-center transition-all duration-300 `}
                 >
                   At the resort’s entrance, the Ganesha statue welcomes guests
                   as the guardian of learning, prosperity, and new beginnings.
